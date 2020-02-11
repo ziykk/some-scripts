@@ -1,9 +1,9 @@
 // Fake register for referrer to get warp plus bandwidth
 const referrer = "1c5c9d88-c061-4e87-b873-8667cfb8fc04";
-const timesToLoop = 10;
-const retryTimes = 5;
+const timesToLoop = 100;
+const retryTimes = 59;
 // How many sec to sleep, currently rate limit might be apply to per min per ip from my observation.
-const sleepSeconds = 60;
+const sleepSeconds = 69;
 
 const https = require("https");
 const zlib = require("zlib");
